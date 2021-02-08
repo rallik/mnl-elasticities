@@ -130,7 +130,7 @@ def computeXPQ(xpq_data, choiceVars, brandVars):
         print(newvar.split('.')[1])
         for org in range(1, dataforfunc['OrgID'].max() + 1):
             needXP = newvar.split('.')[0]
-            filtered_data = dataforfunc.loc[xpq_data['OrgID'] == org, ['Brand','P', needXP]]
+            filtered_data = dataforfunc.loc[xpq_data['OrgID'] == org, ['Brand','P', needXP]] ##PROBLEMS HERE
             
             comparingTo = newvar.split('.')[1]
             # print('comparingTo = ', comparingTo)

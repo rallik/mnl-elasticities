@@ -1,0 +1,32 @@
+COMPUTE AffordableXPQ.Matlab.R=Affordable.2 * P.1 * P.2. 
+COMPUTE AffordableXPQ.Matlab.SAS=Affordable.3 * P.1 * P.3. 
+COMPUTE AffordableXPQ.Matlab.SPSS=Affordable.4 * P.1 * P.4.  
+COMPUTE AffordableXPQ.Matlab.Stata=Affordable.5 * P.1 * P.5.
+COMPUTE AffordableXPQ.R.Matlab=Affordable.1 * P.2 * P.1.
+COMPUTE AffordableXPQ.R.SAS=Affordable.3 * P.2 * P.3.
+COMPUTE AffordableXPQ.R.SPSS=Affordable.4 * P.2 * P.4.
+COMPUTE AffordableXPQ.R.Stata=Affordable.5 * P.2 * P.5.
+COMPUTE AffordableXPQ.SAS.Matlab=Affordable.1 * P.3 * P.1.  
+COMPUTE AffordableXPQ.SAS.R=Affordable.2 * P.3 * P.2.
+COMPUTE AffordableXPQ.SAS.SPSS=Affordable.4 * P.3 * P.4.
+COMPUTE AffordableXPQ.SAS.Stata=Affordable.5 * P.3 * P.5.
+COMPUTE AffordableXPQ.SPSS.Matlab=Affordable.1 * P.4 * P.1.
+COMPUTE AffordableXPQ.SPSS.R=Affordable.2 * P.4 * P.2.
+COMPUTE AffordableXPQ.SPSS.SAS=Affordable.3 * P.4 * P.3.
+COMPUTE AffordableXPQ.SPSS.Stata=Affordable.5 * P.4 * P.5.
+COMPUTE AffordableXPQ.Stata.Matlab=Affordable.1 * P.5 * P.1.  
+COMPUTE AffordableXPQ.Stata.R=Affordable.2 * P.5 * P.2.
+COMPUTE AffordableXPQ.Stata.SAS=Affordable.3 * P.5 * P.3.
+COMPUTE AffordableXPQ.Stata.SPSS=Affordable.4 * P.5 * P.4.
+EXECUTE. 
+
+
+***************************************************************
+COMPUTE AffordableXPQ.R.Matlab=Affordable.1 * P.2 * P.1.
+COMPUTE AffordableXPQ.SAS.Matlab=Affordable.1 * P.3 * P.1.  
+COMPUTE AffordableXPQ.SPSS.Matlab=Affordable.1 * P.4 * P.1.
+COMPUTE AffordableXPQ.Stata.Matlab=Affordable.1 * P.5 * P.1.  
+
+
+
+***************************************************************
